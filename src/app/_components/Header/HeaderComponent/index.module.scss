@@ -1,0 +1,27 @@
+.header {
+    padding: 36px 0;
+  }
+  
+  .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: calc(var(--base) / 2) var(--base)
+  }
+  
+  .hide { 
+    display: none;
+  }
+
+  .anime {
+    color: #2d3748; /* Replace with your desired gray color */
+    font-weight: 800; 
+    font-size: 2rem; 
+  }
+  
+  .asylum {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #f07772, #bf0606); /* Replace the color values with your desired gradient colors */
+  }
